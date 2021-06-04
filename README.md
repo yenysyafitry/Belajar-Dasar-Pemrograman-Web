@@ -350,3 +350,20 @@ Ketika kita membukanya pada browser, maka akan nampak seperti ini:
 <tr><td>I</td><td>Menggunakan huruf romawi besar dalam urutan item</td></tr></table>
 
 <p align="justify">Selain tipe angka pada urutan, kita juga bisa menetapkan nilai awal pada sebuah ordered list dengan menggunakan atribut start. Contohnya, jika kita ingin memulai sebuah list dari angka 7, maka kita tetapkan atribut start dengan nilai 7 pada elemen < ol >.</p>
+
+```plantuml
+<ol start="7">
+   <li>Langkah ketujuh</li>
+   <li>Langkah kedelapan</li>
+   <li>Langkah kesembilan</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+```
+
+Maka hasilnya list akan dimulai dengan nilai urutan ke-7.
+<table><tr><td><ol start="7">
+   <li>Langkah ketujuh</li>
+   <li>Langkah kedelapan</li>
+   <li>Langkah kesembilan</li>
+   <li>Langkah selanjutnya</li>
+ </ol> </td></tr></table>
