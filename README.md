@@ -387,6 +387,7 @@ Silakan buka kembali berkas index.html pada teks editor. Tambahkan elemen unorde
 ```
 
 Sehingga pada browser akan menampilkan list seperti ini.
+<table><tr><td>
 …………..
 <body>
 <h1>Bandung</h1>
@@ -398,3 +399,4 @@ Sehingga pada browser akan menampilkan list seperti ini.
 </ul>
 <h2>Sejarah</h2>
 ……...
+ </td></tr></table>
