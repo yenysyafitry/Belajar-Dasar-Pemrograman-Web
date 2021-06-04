@@ -389,7 +389,7 @@ Silakan buka kembali berkas index.html pada teks editor. Tambahkan elemen unorde
 Sehingga pada browser akan menampilkan list seperti ini.
 <table><tr><td>
  
-…………..
+
 <body>
 <h1>Bandung</h1>
 <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
@@ -399,6 +399,6 @@ Sehingga pada browser akan menampilkan list seperti ini.
    <li>Wisata</li>
 </ul>
 <h2>Sejarah</h2>
-……...
+
  
  </td></tr></table>
