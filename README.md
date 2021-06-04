@@ -253,7 +253,7 @@ Di antara tag elemen < li >, kita dapat mengisikan konten apapun termasuk elemen
    <li><p>Sebuah paragraf sebagai item list</p></li>
 </ul>
  </td></tr></table>
-Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list.
+Kita juga bisa menyimpan kembali elemen < ul > untuk membuat sebuah nested list.
  
  ```plantuml
  <ul>
@@ -270,6 +270,7 @@ Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list.
 </ul>
 ```
 
+<table><tr><td> Output :</br>
 <ul>
    <li>List item 1</li>
    <li>List item 2</li>
@@ -282,5 +283,5 @@ Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list.
    </li>
    <li>List item 4</li>
 </ul>
-
+</td></tr>
 </p>
