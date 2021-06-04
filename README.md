@@ -169,7 +169,7 @@ Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan 
 Dengan menambahkan atribut translate dan memberikan nilai “no” pada elemen paragraf tersebut, maka konten dari elemen yang dimaksud tidak akan diterjemahkan oleh layanan sistem translate otomatis seperti Google Translate.</br></br>
 Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML terdapat dua jenis atribut, yaitu Global Attribute dan atribut yang hanya bisa digunakan pada elemen tertentu. Untuk atribut yang spesifik pada sebuah elemen, kita akan mengulasnya   pada pembahasan elemen tersebut. Untuk Global Attribute, berikut daftar atribut yang bisa kita gunakan di seluruh elemen HTML.</p>
 <p align="justify"><table>
- <tr><td>Attribute</td><td>Description</td></tr>
+ <tr align="center"><td><b>Attribute</td><td>Description</td></tr></b>
 <tr><td>accesskey</td><td>Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.</td></tr>
 <tr><td>class</td><td>Menentukan satu atau lebih classname untuk sebuah elemen.</td></tr>
 <tr><td>contenteditable</td><td>Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.</td></tr>
