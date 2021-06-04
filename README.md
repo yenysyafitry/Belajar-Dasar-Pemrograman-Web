@@ -201,7 +201,7 @@ yang lalu membentuk telaga...</p>
 
 Ketika menggunakan paragraf pada browser, teks selalu ditampilkan dengan garis baru dan terdapat sedikit jarak (space) antar elemennya. Jarak tersebut nantinya bisa kita atur ketika sudah menerapkan styling.
 
-<table><tr><td>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum  oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga...</br></br>
+<table align="justify"><tr><td>Output :</br></br>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum  oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga...</br></br>
    Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi...</td></tr></table>
 
 Paragraf dapat terdiri dari teks, elemen gambar, dan inline element lainnya. Tetapi hindarilah penggunaan element paragraf untuk konten seperti heading atau list, karena terdapat elemen lain yang lebih tepat untuk digunakan.</br></br>
