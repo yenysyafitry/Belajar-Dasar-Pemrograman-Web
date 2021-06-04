@@ -170,62 +170,18 @@ Dengan menambahkan atribut translate dan memberikan nilai “no” pada elemen p
 Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML terdapat dua jenis atribut, yaitu Global Attribute dan atribut yang hanya bisa digunakan pada elemen tertentu. Untuk atribut yang spesifik pada sebuah elemen, kita akan mengulasnya   pada pembahasan elemen tersebut. Untuk Global Attribute, berikut daftar atribut yang bisa kita gunakan di seluruh elemen HTML.</p>
 <p align="justify"><table>
  <tr><td>Attribute</td><td>Description</td></tr>
-<tr><td>accesskey</td><td>
-
-Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.
-
-<tr><td>class</td><td>
-
-Menentukan satu atau lebih classname untuk sebuah elemen.
-
-<tr><td>contenteditable</td><td>
-
-Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.
-
-<tr><td>data-*</td><td>
-
-Digunakan untuk menyimpan sebuah data pribadi khusus ke halaman atau aplikasi.
-
-<tr><td>dir</td><td>
-
-Menentukan arah teks untuk konten pada suatu elemen.
-
-<tr><td>draggable</td><td>
-
-Menentukan apakah suatu elemen dapat di-drag atau tidak.
-
-<tr><td>dropzone</td><td>
-
-Menentukan apakah data yang di-drag adalah data yang disalin, dipindahkan, atau ditautkan saat dijatuhkan.
-
-<tr><td>hidden</td><td>
-
-Menentukan apakah suatu elemen ditampilkan atau tidak pada browser.
-
-<tr><td>id</td><td>
-
-Menetapkan id pada elemen.
-
-lang
-
-Menentukan bahasa pada konten elemen.
-
-spellcheck
-
-Menentukan apakah elemen harus diperiksa ejaannya dan tata bahasanya atau tidak.
-
-style
-
-Menentukan styling secara satu baris untuk suatu elemen.
-
-tabindex
-
-Menentukan urutan dari suatu elemen.
-
-title
-
-Menentukan informasi tambahan tentang suatu elemen.
-
-translate
-
-Menentukan apakah konten elemen harus diterjemahkan atau tidak.</tr>
+<tr><td>accesskey</td><td>Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.</td></tr>
+<tr><td>class</td><td>Menentukan satu atau lebih classname untuk sebuah elemen.</td></tr>
+<tr><td>contenteditable</td><td>Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.</td></tr>
+<tr><td>data-*</td><td>Digunakan untuk menyimpan sebuah data pribadi khusus ke halaman atau aplikasi.</td></tr>
+<tr><td>dir</td><td>Menentukan arah teks untuk konten pada suatu elemen.</td></tr>
+<tr><td>draggable</td><td>Menentukan apakah suatu elemen dapat di-drag atau tidak.</td></tr>
+<tr><td>dropzone</td><td>Menentukan apakah data yang di-drag adalah data yang disalin, dipindahkan, atau ditautkan saat dijatuhkan.</td></tr>
+<tr><td>hidden</td><td>Menentukan apakah suatu elemen ditampilkan atau tidak pada browser.</td></tr>
+<tr><td>id</td><td>Menetapkan id pada elemen.</td></tr>
+<tr><td>lang</td><td>Menentukan bahasa pada konten elemen.</td></tr>
+<tr><td>spellcheck</td><td>Menentukan apakah elemen harus diperiksa ejaannya dan tata bahasanya atau tidak.</td></tr>
+<tr><td>style</td><td>Menentukan styling secara satu baris untuk suatu elemen.</td></tr>
+<tr><td>tabindex</td><td>Menentukan urutan dari suatu elemen.</td></tr>
+<tr><td>title</td><td>Menentukan informasi tambahan tentang suatu elemen.</td></tr>
+<tr><td>translate</td><td>Menentukan apakah konten elemen harus diterjemahkan atau tidak.</td></tr></table></p>
