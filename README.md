@@ -106,7 +106,8 @@ Seluruh konten yang terdapat pada elemen ini akan ditampilkan pada halaman websi
     </head>
     <body>
         <h1>header yang diletakan di dalam elemen body</h1>
-        <p>Ini merupakan sebuah paragraph yang juga diletakan pada sebuah konten body, sehingga konten ini dapat dilihat oleh pengguna pada jendela browser.</p>
+        <p>Ini merupakan sebuah paragraph yang juga diletakan pada sebuah konten body, sehingga konten ini dapat dilihat oleh 
+        pengguna pada jendela browser.</p>
     </body>
 </html>
 ```
