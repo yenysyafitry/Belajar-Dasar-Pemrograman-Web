@@ -216,7 +216,7 @@ Pada HTML terdapat tiga tipe list:</b></p><ol align="justify">
 <li> Description lists : daftar yang terbuat dari beberapa istilah diikuti dengan deskripsi dari istilah tersebut.</li></ol>
 
 <p align="justify"><b>Unordered List</b></br>
-Seperti namanya, unordered list merupakan daftar yang tidak mementingkan urutan. Standarnya, unordered list menampilkan bullet pada tiap item list-nya (tetapi kita bisa mengubahnya dengan styling). Untuk menetapkan konten sebagai unordered list kita gunakan <ul></ul> kemudian di dalam elemen tersebut kita gunakan tags <li></li> untuk menetapkan item pada list tersebut. Contoh penerapannya sebagai berikut:
+Seperti namanya, unordered list merupakan daftar yang tidak mementingkan urutan. Standarnya, unordered list menampilkan bullet pada tiap item list-nya (tetapi kita bisa mengubahnya dengan styling). Untuk menetapkan konten sebagai unordered list kita gunakan <ul></ul> kemudian di dalam elemen tersebut kita gunakan tags < li >< /li > untuk menetapkan item pada list tersebut. Contoh penerapannya sebagai berikut:
  
  ```plantuml
  <ul>
@@ -234,7 +234,7 @@ Seperti namanya, unordered list merupakan daftar yang tidak mementingkan urutan.
    <li>Item 3</li>
    <li>Item 4</li>
 </ul>
-Di antara tag elemen <li>, kita dapat mengisikan konten apapun termasuk elemen HTML lain. Contohnya kita dapat memasukan sebuah heading atau paragraf pada item.
+Di antara tag elemen < li >, kita dapat mengisikan konten apapun termasuk elemen HTML lain. Contohnya kita dapat memasukan sebuah heading atau paragraf pada item.
  
   ```plantuml
  <ul>
@@ -245,11 +245,14 @@ Di antara tag elemen <li>, kita dapat mengisikan konten apapun termasuk elemen H
  ```
  
  Seperti yang kita sudah ketahui, maka list item akan menampilkan seperti format header.
+ 
+ <table><tr><td>
   <ul>
    <li><h1>Sebuah Heading sebagai item list</h1></li>
    <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
    <li><p>Sebuah paragraf sebagai item list</p></li>
 </ul>
+ </td></tr></table>
 Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list.
  
  ```plantuml
