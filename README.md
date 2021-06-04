@@ -129,9 +129,24 @@ Maka seluruh konten yang dituliskan di dalam elemen <body> akan nampak pada brow
 Lorem ipsum adalah teks standar yang ditempatkan untuk mendemonstrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Tujuan penggunaan lorem ipsum sebagai berikut:</br></br><ol align="justify">
 <li>Sebagai pengisi sementara jika belum ada konten teks.</li>
 <li>Jika ingin menunjukkan hasil website sementara di mana audiens diharapkan lebih fokus kepada elemen desain yang dipresentasikan dan bukan pada isi teks.</li></ol>
-Ada berbagai cara untuk membuat teks lorem ipsum seperti berikut:</br>
+Ada berbagai cara untuk membuat teks lorem ipsum seperti berikut:
 <ol align="justify">
 <li>Gunakan Microsoft Word. Buat dokumen baru dan pada lembar kerja ketiklah =lorem(), kemudian tekan tombol enter pada keyboard. Secara otomatis akan muncul teks lorem ipsum. Kamu juga dapat mengatur jumlah teks yang muncul dengan cara ketik =lorem(“angka jumlah paragraf yang diinginkan”, “angka jumlah kalimat pada setiap paragraf”). Sebagai contoh jika mengetik =lorem(3,4) maka akan muncul teks sebanyak 3 paragraf dan masing-masing paragraf terdapat 4 teks.</br>
 <li>Tersedia banyak situs generator lorem ipsum gratis seperti pada  https://id.lipsum.com/ dan https://loremipsum.io/</li></ol>
 
+<b>Berikut catatan penting yang sudah kita pelajari sejauh ini:</b>
+<ol align="justify">
+<li>
+Website : Halaman yang menampilkan informasi melalui teks atau gambar. Website dapat diakses melalui internet dengan menggunakan browser.
+<li>Browser : Sebuah perangkat lunak yang dapat menerjemahkan berkas HTML, CSS, dan Javascript yang di dapat dari server untuk ditampilkan dalam bentuk halaman website.</li>
+<li>HTTP Server : Server berperan pada sebuah website sebagai sebuah software yang dapat menerima transaksi dari HyperText Transfer Protocol.</li>
+<li>DNS Server : Server yang dapat mengubah/mengarahkan website melalui sebuah nama domain.</li>
+<li>Client : Perangkat yang meminta (request) suatu layanan tertentu ke suatu server.</li>
+<li>HTML : Salah satu markup language yang digunakan untuk membuat struktur dan menampilkan konten pada World Wide Web (Website).</li>
+<li>CSS : Bahasa yang digunakan untuk mengatur dan mempercantik tampilan pada website.</li>
+<li>JavaScript : Bahasa pemrograman yang digunakan untuk membantu website menampilkan informasi secara dinamis.</li>
+<li>Text Editor : Sebuah perangkat lunak yang digunakan untuk mengelola plain text. Kode HTML, CSS, dan Javascript dituliskan menggunakan perangkat ini.</li>
+<li>Plain text : Teks yang tidak terformat. Format teks yang digunakan dalam menuliskan berkas HTML, CSS, dan Javascript.</li>
+<li>Rich text : Teks terformat. Format teks yang digunakan ketika kita menulis menggunakan Microsoft Word atau teks editor berbasis WYSIWYG (What You See Is What You Get).</li>
+<li>Element : Sebuah komponen pada HTML yang ditandai dengan tag pembuka dan penutup.</li></ol>
 </p>
