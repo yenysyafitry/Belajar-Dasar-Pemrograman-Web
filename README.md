@@ -83,3 +83,32 @@ Elemen <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi da
 ```
 
 Tetapi sejak HTML5, penggunaan <head> dapat dihilangkan. Sehingga struktur dasar berkas HTML menjadi seperti ini:</p>
+
+  ```plantuml
+<html>
+    <meta charset="utf-8">
+    <title>Judul halaman</title>
+    <style> Style </style>
+    <body>
+        <h1>Heading Utama</h1>
+        <p>Sebuah Paragraph.</p>
+    </body>
+</html>
+```
+
+<p align="justify"><b>Elemen <body></b></br>
+Seluruh konten yang terdapat pada elemen ini akan ditampilkan pada halaman website. Maka dari itu, elemen ini digunakan untuk menampung seluruh konten atau elemen yang ditampilkan ke dalam jendela browser. Silakan coba tuliskan kode berikut, simpan dalam format HTML dan jalankan pada browser:
+
+ ```plantuml
+<html>
+    <head>
+        <title>Ini merupakan judul dari dokumen HTML</title>
+    </head>
+    <body>
+        <h1>header yang diletakan di dalam elemen body</h1>
+        <p>Ini merupakan sebuah paragraph yang juga diletakan pada sebuah konten body, sehingga konten ini dapat dilihat oleh pengguna pada jendela browser.</p>
+    </body>
+</html>
+```
+
+Maka seluruh konten yang dituliskan di dalam elemen <body> akan nampak pada browser.</p>
