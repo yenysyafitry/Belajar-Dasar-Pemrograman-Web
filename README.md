@@ -54,7 +54,7 @@ Berkas HTML dasarnya memiliki struktur yang nampak seperti ini:
 ```
 
 <p align="justify">Di antara tag pembuka dan penutup sebuah elemen, kita dapat meletakkan sebuah konten. Konten dapat berupa teks ataupun sebuah elemen HTML lain. Contohnya, elemen <html> memiliki konten yaitu elemen <head> dan juga elemen <body>. Lalu, elemen <head> memiliki konten berupa elemen <title> yang di dalamnya memiliki konten berupa teks dari judul halaman yang ditampilkan. Begitu pula dengan elemen lainnya, sehingga hirarki elemen HTML nampak seperti ini.</p>
-<p align="center"><img src="https://github.com/yenysyafitry/Belajar-Dasar-Pemrograman-Web/blob/main/202006181730100f308f3cbd10dc30573877fe45a4a8bb.jpeg"></p>
+<p align="center"><img src="https://github.com/yenysyafitry/Belajar-Dasar-Pemrograman-Web/blob/main/gambar2.jpeg"></p>
 <p align="justify"><b>Elemen <html></b></br>
 Hierarki elemen teratas pada berkas HTML adalah elemen HTML-nya itu sendiri. Elemen ini digunakan untuk memberitahu kepada browser bahwa ini merupakan sebuah berkas HTML sekaligus menjadi root dari sebuah berkasnya itu. Seluruh elemen lainnya tentunya dituliskan pada konten elemen ini.</br></br>
 <b>Elemen <head></b></br>
@@ -106,7 +106,8 @@ Seluruh konten yang terdapat pada elemen ini akan ditampilkan pada halaman websi
     </head>
     <body>
         <h1>header yang diletakan di dalam elemen body</h1>
-        <p>Ini merupakan sebuah paragraph yang juga diletakan pada sebuah konten body, sehingga konten ini dapat dilihat oleh 
+        <p>Ini merupakan sebuah paragraph yang juga diletakan pada sebuah konten body, sehingga 
+        konten ini dapat dilihat oleh 
         pengguna pada jendela browser.</p>
     </body>
 </html>
