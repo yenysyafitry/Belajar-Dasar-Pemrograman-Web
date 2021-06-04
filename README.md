@@ -342,7 +342,7 @@ Ketika kita membukanya pada browser, maka akan nampak seperti ini:
  
  Berikut nilai - nilai yang dapat digunakan pada atribut type pada elemen < ol >:
 
-<table><tr><td>Nilai</td><td>Deskripsi</td></tr>
+<table><tr align="center"><b><td>Nilai</td></b><b><td>Deskripsi</td></b></tr>
 <tr><td>1</td><td>Menggunakan angka dalam urutan item (default)</td></tr>
 <tr><td>a</td><td>Menggunakan huruf kecil dalam urutan item</td></tr>
 <tr><td>A</td><td>Menggunakan huruf besar dalam urutan item</td></tr>
