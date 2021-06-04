@@ -164,8 +164,8 @@ Untuk menuliskan sebuah atribut kita memerlukan nama dari atribut itu diikuti de
 Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan kembali seluruh struktur atribut di samping dari atribut yang sudah ada. Contohnya pada elemen paragraf di atas, kita akan memberikan sebuah atribut translate, sehingga penulisannya menjadi seperti ini:</p>
 
 ```plantuml
-<p lang="id" translate="no">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi
-ibu kota provinsi tersebut.</p>
+<p lang="id" translate="no">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus 
+menjadi ibu kota provinsi tersebut.</p>
 ```
 
 <p align="justify">
