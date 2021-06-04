@@ -288,3 +288,65 @@ Kita juga bisa menyimpan kembali elemen < ul > untuk membuat sebuah nested list.
 </ul>
 </td></tr>
 </p>
+
+<p align="justify"><b>Ordered List</b></br>
+Ordered list digunakan untuk membuat list yang mementingkan urutan. Contohnya, membuat daftar instruksi langkah demi langkah sehingga dibutuhkan urutan yang sesuai. Ordered list bekerja seperti unordered list, namun perbedaanya pada tiap item menampilkan angka bukan sebuah bullet. Angka yang ditampilkan, otomatis berurut tiap itemnya, sehingga kita tidak perlu menuliskan secara kasar urutan nomornya. Hal ini tentu mempermudah kita untuk mengorganisir tiap itemnya. Untuk menetapkan konten sebagai ordered list kita gunakan < ol >< /ol >. Sama seperti Unordered list, tiap item dalam list ditetapkan dengan menggunakan tags < li >< /li >.</p>
+
+```plantuml
+<ol>
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+```
+
+Ketika kita membukanya pada browser, maka akan nampak seperti ini:
+<ol>
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+
+<p align="justify">Sama seperti pada unordered list, di antara tag elemen <li> kita dapat mengisikan konten apapun termasuk elemen HTML lain. Pada ordered list, tipe urutan angkanya dapat kita atur melalui sebuah atribut type. Contohnya, selain nomor urutan angka dapat menggunakan alfabet ataupun angka romawi.</p>
+
+```plantuml
+<ol type="I">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+ 
+<ol type="A">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+```
+
+<table><tr><td><ol type="I">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+</ol>
+<ol type="A">
+   <li>Langkah pertama</li>
+   <li>Langkah kedua</li>
+   <li>Langkah ketiga</li>
+   <li>Langkah selanjutnya</li>
+ </ol> </td></tr></table>
+ 
+ Berikut nilai - nilai yang dapat digunakan pada atribut type pada elemen < ol >:
+
+<table><tr><td>Nilai</td><td>Deskripsi</td></tr>
+<tr><td>1</td><td>Menggunakan angka dalam urutan item (default)</td></tr>
+<tr><td>a</td><td>Menggunakan huruf kecil dalam urutan item</td></tr>
+<tr><td>A</td><td>Menggunakan huruf besar dalam urutan item</td></tr>
+<tr><td>i</td><td>Menggunakan huruf romawi kecil dalam urutan item</td></tr>
+<tr><td>I</td><td>Menggunakan huruf romawi besar dalam urutan item</td></tr></table>
+
+<p align="justify">Selain tipe angka pada urutan, kita juga bisa menetapkan nilai awal pada sebuah ordered list dengan menggunakan atribut start. Contohnya, jika kita ingin memulai sebuah list dari angka 7, maka kita tetapkan atribut start dengan nilai 7 pada elemen < ol >.</p>
