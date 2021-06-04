@@ -367,3 +367,34 @@ Maka hasilnya list akan dimulai dengan nilai urutan ke-7.
    <li>Langkah kesembilan</li>
    <li>Langkah selanjutnya</li>
  </ol> </td></tr></table>
+ 
+ <p align="justify"><b>Menambahkan List pada Halaman Profil</b></br>
+Setelah mempelajari penerapan list pada HTML, sekarang kita coba terapkan elemen list yang berperan sebagai navigasi pada halaman profil yang sebelumnya sudah kita buat.  “Pada langkah ini dan selanjutnya, Sebaiknya gunakanlah teks editor yang disarankan pada materi text editor agar proses penulisan dan pengelolaan berkas HTML dapat lebih cepat”.</br></br>
+Silakan buka kembali berkas index.html pada teks editor. Tambahkan elemen unordered list di bawah dari elemen paragraf pertama pada berkas HTML sebagai berikut.</p>
+
+```plantuml
+…………..
+<body>
+<h1>Bandung</h1>
+<p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+<ul>
+   <li>Sejarah</li>
+   <li>Geografis</li>
+   <li>Wisata</li>
+</ul>
+<h2>Sejarah</h2>
+……...
+```
+
+Sehingga pada browser akan menampilkan list seperti ini.
+…………..
+<body>
+<h1>Bandung</h1>
+<p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+<ul>
+   <li>Sejarah</li>
+   <li>Geografis</li>
+   <li>Wisata</li>
+</ul>
+<h2>Sejarah</h2>
+……...
