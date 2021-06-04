@@ -30,4 +30,51 @@ Editor ini mungkin tidak secanggih opsi-opsi sebelumnya dalam menuliskan kode HT
 <b>Browser</b></br>
 Seperti yang sudah kita ketahui, untuk mengakses website membutuhkan sebuah browser. Tentu untuk mengembangkan website juga diperlukan sebuah browser untuk melihat seperti apa tampak website yang sedang kita kembangkan. Kita bisa menggunakan browser apa pun untuk mengunjungi sebuah website, tetapi hasil yang ditampilkan mungkin dapat berbeda pada di setiap browser. Walaupun tampilan pada setiap browser berbeda, pada kelas ini kalian tidak perlu mencobanya satu per satu untuk melihatnya pada masing - masing browser. Kami sarankan Anda untuk menggunakan browser yang populer yaitu Google Chrome atau Mozilla Firefox. </br></br>
 Seperti text editor, sebenarnya sistem operasi sudah mempunyai browser usungannya masing-masing, misal Microsoft Edge di Windows dan Safari di MacOS. Akan tetapi kedua browser tersebut tidak memiliki fitur developer tools atau Dev Tools seperti yang dimiliki oleh Google Chrome dan Mozilla Firefox.</br></br>
-Developer Tools atau Dev Tools merupakan alat yang dapat digunakan untuk melakukan debugging pada sebuah website. Dev Tools ini merupakan tools yang andal dalam mencari suatu bugs dan memperbaikinya. Bahkan kita dapat mensimulasikan tampilan website pada sebuah layar smartphone, sehingga tak perlu repot-repot memakai smartphone untuk melihat responsibilitas website yang kita kembangkan.</br></br></p>
+Developer Tools atau Dev Tools merupakan alat yang dapat digunakan untuk melakukan debugging pada sebuah website. Dev Tools ini merupakan tools yang andal dalam mencari suatu bugs dan memperbaikinya. Bahkan kita dapat mensimulasikan tampilan website pada sebuah layar smartphone, sehingga tak perlu repot-repot memakai smartphone untuk melihat responsibilitas website yang kita kembangkan.</br></br>
+<b>Membuat berkas HTML Pertama</b></br>
+Untuk langkah awal tentunya kita membuat sebuah berkas HTML. Kita akan mencoba membuatnya dari nol dengan menggunakan alat yang ada. Gunakanlah text editor usungan sistem operasi masing-masing agar kita tahu bagaimana pengalaman membuat dan menuliskan sebuah kode tanpa bantuan code completion.</br></br>
+<b>Windows</b></br>
+Langkah awal dalam membuat berkas HTML adalah kita buka Notepad pada komputer kita. Untuk membukanya bisa melalui beberapa cara, salah satunya melalui fitur Run yang terdapat pada Windows. Silakan gunakan kombinasi tombol Windows + R untuk membuka jendela Run, kemudian tuliskan “notepad”</br></br>
+<b>Struktur Dasar HTML</b></br>
+Website serupa dengan berkas dokumen yang ada seperti koran, majalah, atau buku. Serupa dalam hal memiliki struktur konten layaknya dokumen sehari-hari yang kita baca. Pada sebuah majalah terdapat judul, gambar yang ditampilkan dan teks dalam bentuk paragraf. Terkadang, jika konten tersebut panjang terdapat sub-judul untuk memisahkannya menjadi beberapa bagian.</br></br>
+Judul dan subjudul pada sebuah dokumen menggambarkan suatu hierarki dari informasi. Misalnya, judul dengan ukuran besar merupakan judul utama dalam sebuah konten. Kemudian diikuti dengan judul kecil di bawahnya yang menjelaskan informasi dengan lebih mendetail lagi.</br></br>
+Berkas HTML dasarnya memiliki struktur yang nampak seperti ini:
+</p>
+
+```plantuml 
+ <html>
+    <head>
+    <title>Judul Halaman</title>
+    </head>
+    <body>
+        <h1>Heading Utama</h1>
+        <p>Sebuah Paragraph.</p>
+    </body>
+</html>
+```
+
+<p align="justify">Di antara tag pembuka dan penutup sebuah elemen, kita dapat meletakkan sebuah konten. Konten dapat berupa teks ataupun sebuah elemen HTML lain. Contohnya, elemen <html> memiliki konten yaitu elemen <head> dan juga elemen <body>. Lalu, elemen <head> memiliki konten berupa elemen <title> yang di dalamnya memiliki konten berupa teks dari judul halaman yang ditampilkan. Begitu pula dengan elemen lainnya, sehingga hirarki elemen HTML nampak seperti ini.</p>
+<p align="center"><img src="https://github.com/yenysyafitry/Belajar-Dasar-Pemrograman-Web/blob/main/202006181730100f308f3cbd10dc30573877fe45a4a8bb.jpeg"></p>
+<p align="justify"><b>Elemen <html></b></br>
+Hierarki elemen teratas pada berkas HTML adalah elemen HTML-nya itu sendiri. Elemen ini digunakan untuk memberitahu kepada browser bahwa ini merupakan sebuah berkas HTML sekaligus menjadi root dari sebuah berkasnya itu. Seluruh elemen lainnya tentunya dituliskan pada konten elemen ini.</br></br>
+<b>Elemen <head></b></br>
+Elemen <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi dari dokumen HTML. Informasi dapat berupa elemen meta, style, atau link. Dan juga pada elemen ini judul dari dokumen HTML didefinisikan dengan menggunakan elemen <title>. Berikut contoh elemen yang berada pada konten head:</p>
+<ol align="justify">
+<li><title> </li>
+<li><style></li>
+<li><base></li>
+<li><link></li>
+<li><meta></li>
+<li><script></li>
+  <li><noscript></li></ol>
+<p align="justify">Pada HTML versi 4.01, elemen <head> wajib ada dalam sebuah berkas HTML. Berikut contoh penulisan sebuah elemen <head> beserta contoh konten di dalamnya:</br>
+  
+  ```plantuml
+<head>
+    <meta charset="utf-8">
+    <title>Judul halaman</title>
+    <style> Style </style>
+</head>
+```
+
+Tetapi sejak HTML5, penggunaan <head> dapat dihilangkan. Sehingga struktur dasar berkas HTML menjadi seperti ini:</p>
