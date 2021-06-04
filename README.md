@@ -270,7 +270,7 @@ Kita juga bisa menyimpan kembali elemen < ul > untuk membuat sebuah nested list.
 </ul>
 ```
 
-<table><tr><td> Output :</br>
+<table><tr><td> <b>Output :</b></br></br>
 <ul>
    <li>List item 1</li>
    <li>List item 2</li>
