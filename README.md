@@ -125,12 +125,13 @@ Maka seluruh konten yang dituliskan di dalam elemen <body> akan nampak pada brow
   ```
   
 <p align="justify">Sebuah komentar berguna untuk memberikan label dan mengorganisir sebuah dokumen yang panjang, terlebih ketika kita bekerja secara tim.</br></br>
-Lorem Ipsum</b></br>
-Lorem ipsum adalah teks standar yang ditempatkan untuk mendemonstrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Tujuan penggunaan lorem ipsum sebagai berikut:</br></br>
-1.Sebagai pengisi sementara jika belum ada konten teks.</br>
-2.Jika ingin menunjukkan hasil website sementara di mana audiens diharapkan lebih fokus kepada elemen desain yang dipresentasikan dan bukan pada isi teks.</br></br>
-Ada berbagai cara untuk membuat teks lorem ipsum seperti berikut:</br></br>
-1.Gunakan Microsoft Word. Buat dokumen baru dan pada lembar kerja ketiklah =lorem(), kemudian tekan tombol enter pada keyboard. Secara otomatis akan muncul teks lorem ipsum. Kamu juga dapat mengatur jumlah teks yang muncul dengan cara ketik =lorem(“angka jumlah paragraf yang diinginkan”, “angka jumlah kalimat pada setiap paragraf”). Sebagai contoh jika mengetik =lorem(3,4) maka akan muncul teks sebanyak 3 paragraf dan masing-masing paragraf terdapat 4 teks.</br>
-2.Tersedia banyak situs generator lorem ipsum gratis seperti pada  https://id.lipsum.com/ dan https://loremipsum.io/</br></br>
+<b>Lorem Ipsum</b></br>
+Lorem ipsum adalah teks standar yang ditempatkan untuk mendemonstrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Tujuan penggunaan lorem ipsum sebagai berikut:</br></br><ol align="justify">
+<li>Sebagai pengisi sementara jika belum ada konten teks.</li>
+<li>Jika ingin menunjukkan hasil website sementara di mana audiens diharapkan lebih fokus kepada elemen desain yang dipresentasikan dan bukan pada isi teks.</li></ol>
+Ada berbagai cara untuk membuat teks lorem ipsum seperti berikut:</br>
+<ol align="justify">
+<li>Gunakan Microsoft Word. Buat dokumen baru dan pada lembar kerja ketiklah =lorem(), kemudian tekan tombol enter pada keyboard. Secara otomatis akan muncul teks lorem ipsum. Kamu juga dapat mengatur jumlah teks yang muncul dengan cara ketik =lorem(“angka jumlah paragraf yang diinginkan”, “angka jumlah kalimat pada setiap paragraf”). Sebagai contoh jika mengetik =lorem(3,4) maka akan muncul teks sebanyak 3 paragraf dan masing-masing paragraf terdapat 4 teks.</br>
+<li>Tersedia banyak situs generator lorem ipsum gratis seperti pada  https://id.lipsum.com/ dan https://loremipsum.io/</li></ol>
 
 </p>
