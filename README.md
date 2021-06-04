@@ -204,4 +204,80 @@ dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksik
    Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi...</td></tr></table>
 
 <p align="justify">Paragraf dapat terdiri dari teks, elemen gambar, dan inline element lainnya. Tetapi hindarilah penggunaan element paragraf untuk konten seperti heading atau list, karena terdapat elemen lain yang lebih tepat untuk digunakan.</br></br>
-“Pastikan kita selalu menggunakan elemen (tags) dalam seluruh teks yang ada pada dokumen. Teks yang berada pada dokumen HTML tanpa tags disebut “anonymous text” dan ini dapat menyebabkan dokumen HTML menjadi tidak valid.”</p>
+“Pastikan kita selalu menggunakan elemen (tags) dalam seluruh teks yang ada pada dokumen. Teks yang berada pada dokumen HTML tanpa tags disebut “anonymous text” dan ini dapat menyebabkan dokumen HTML menjadi tidak valid.”</br></br>
+<b>Heading</b></br>
+Pada sub-modul sebelumnya, kita sudah melihat contoh penggunaan header yang diterapkan pada konten yang kita siapkan. Kita menggunakan <h1> dan <h2> dalam mengindikasi judul dan sub judul di dalam kontennya. Pada HTML terdapat <h1> hingga <h6> elemen heading yang dapat kita gunakan.</br></br>
+Ketika kita menambahkan heading pada konten, Heading ini merepresentasikan garis besar halaman pada sebuah browser. Alat bantu baca seperti screen reader membaca garis besar halaman untuk bantu memetakan dan mengarahkan pengguna selama menjelajahi halaman. Selain itu, heading juga merupakan elemen yang dicari oleh mesin pencarian contohnya Google Search.</br></br>
+ <b>List</b></br>
+Seperti yang sudah disebutkan pada pembahasan paragraf, tidak semua teks dibungkus oleh paragraf, salah satunya list. Kita pun terbiasa membuat list dalam kehidupan sehari-hari, baik membuat to-do list atau daftar yang struktur sekalipun. </br></br>
+Pada HTML terdapat tiga tipe list:</b></p><ol align="justify">
+<li> Unordered lists : daftar yang ditampilkan tidak memiliki urutan. </li>
+<li> Ordered lists : daftar yang ditampilkan secara terurut.</li>
+<li> Description lists : daftar yang terbuat dari beberapa istilah diikuti dengan deskripsi dari istilah tersebut.</li></ol>
+
+<p align="justify"><b>Unordered List</b></br>
+Seperti namanya, unordered list merupakan daftar yang tidak mementingkan urutan. Standarnya, unordered list menampilkan bullet pada tiap item list-nya (tetapi kita bisa mengubahnya dengan styling). Untuk menetapkan konten sebagai unordered list kita gunakan <ul></ul> kemudian di dalam elemen tersebut kita gunakan tags <li></li> untuk menetapkan item pada list tersebut. Contoh penerapannya sebagai berikut:
+ 
+ ```plantuml
+ <ul>
+   <li>Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3</li>
+   <li>Item 4</li>
+</ul>
+ ```
+ 
+ Ketika kita membukanya pada browser, maka akan nampak seperti ini:
+ <ul>
+   <li>Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3</li>
+   <li>Item 4</li>
+</ul>
+Di antara tag elemen <li>, kita dapat mengisikan konten apapun termasuk elemen HTML lain. Contohnya kita dapat memasukan sebuah heading atau paragraf pada item.
+ 
+  ```plantuml
+ <ul>
+   <li><h1>Sebuah Heading sebagai item list</h1></li>
+   <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
+   <li><p>Sebuah paragraf sebagai item list</p></li>
+</ul>
+ ```
+ 
+ Seperti yang kita sudah ketahui, maka list item akan menampilkan seperti format header.
+  <ul>
+   <li><h1>Sebuah Heading sebagai item list</h1></li>
+   <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
+   <li><p>Sebuah paragraf sebagai item list</p></li>
+</ul>
+Kita juga bisa menyimpan kembali elemen <ul> untuk membuat sebuah nested list.
+ 
+ ```plantuml
+ <ul>
+   <li>List item 1</li>
+   <li>List item 2</li>
+   <li>List item 3
+       <ul>
+           <li>List item 3.1</li>
+           <li>List item 3.2</li>
+           <li>List item 3.3</li>
+       </ul>
+   </li>
+   <li>List item 4</li>
+</ul>
+```
+
+<ul>
+   <li>List item 1</li>
+   <li>List item 2</li>
+   <li>List item 3
+       <ul>
+           <li>List item 3.1</li>
+           <li>List item 3.2</li>
+           <li>List item 3.3</li>
+       </ul>
+   </li>
+   <li>List item 4</li>
+</ul>
+
+</p>
