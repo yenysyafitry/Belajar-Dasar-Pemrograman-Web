@@ -186,3 +186,24 @@ Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML 
 <tr><td>tabindex</td><td>Menentukan urutan dari suatu elemen.</td></tr>
 <tr><td>title</td><td>Menentukan informasi tambahan tentang suatu elemen.</td></tr>
 <tr><td>translate</td><td>Menentukan apakah konten elemen harus diterjemahkan atau tidak.</td></tr></table></p>
+
+<p align="justify"><b>Paragraf</b></br>
+Paragraf adalah elemen paling mendasar dari sebuah dokumen teks. Pada HTML, kita bisa menunjukkan sebuah paragraf dengan menggunakan elemen <p>. Contohnya seperti ini:
+
+```plantuml
+<p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu 
+yang lalu membentuk telaga...</p>
+   
+<p>Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang
+   merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya
+   menyaksikan atau bersaksi...</p>
+```
+
+Ketika menggunakan paragraf pada browser, teks selalu ditampilkan dengan garis baru dan terdapat sedikit jarak (space) antar elemennya. Jarak tersebut nantinya bisa kita atur ketika sudah menerapkan styling.
+
+<table><tr><td>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum  oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga...</br></br>
+   Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi...</td></tr></table>
+
+Paragraf dapat terdiri dari teks, elemen gambar, dan inline element lainnya. Tetapi hindarilah penggunaan element paragraf untuk konten seperti heading atau list, karena terdapat elemen lain yang lebih tepat untuk digunakan.</br></br>
+
+“Pastikan kita selalu menggunakan elemen (tags) dalam seluruh teks yang ada pada dokumen. Teks yang berada pada dokumen HTML tanpa tags disebut “anonymous text” dan ini dapat menyebabkan dokumen HTML menjadi tidak valid.”</p>
