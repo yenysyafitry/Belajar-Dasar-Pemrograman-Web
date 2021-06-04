@@ -113,3 +113,5 @@ Seluruh konten yang terdapat pada elemen ini akan ditampilkan pada halaman websi
 ```
 
 Maka seluruh konten yang dituliskan di dalam elemen <body> akan nampak pada browser.</p>
+
+<p align="center"><img src="https://github.com/yenysyafitry/Belajar-Dasar-Pemrograman-Web/blob/main/gambar2.jpeg"></p>
