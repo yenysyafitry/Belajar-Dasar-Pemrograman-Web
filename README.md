@@ -150,3 +150,82 @@ Website : Halaman yang menampilkan informasi melalui teks atau gambar. Website d
 <li>Rich text : Teks terformat. Format teks yang digunakan ketika kita menulis menggunakan Microsoft Word atau teks editor berbasis WYSIWYG (What You See Is What You Get).</li>
 <li>Element : Sebuah komponen pada HTML yang ditandai dengan tag pembuka dan penutup.</li></ol>
 </p>
+<p align="justify">
+ <b>Atribut HTML</b></br>
+Pada sub-modul sebelumnya kita sudah mengenal apa itu elemen. Elemen dituliskan dengan awalan tag pembuka <> dan diakhiri dengan tag penutup </>. Ada satu hal lagi yang bisa kita tuliskan pada sebuah elemen, lebih tepatnya pada sebuah tag pembuka, yaitu Attribute. Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. Atribut dituliskan pada tag pembuka sebuah elemen setelah nama dari elemennya tersebut ditulis. Contohnya:</br></br>
+
+```plantuml
+<p lang="id">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+```
+
+Pada contoh kode tersebut, kita menetapkan artibut bahasa (dengan penulisan lang) dengan nilai “id” atau Indonesia (kode bahasa bisa kita explore pada link berikut: https://www.w3schools.com/tags/ref_language_codes.asp) pada sebuah elemen paragraf.</br></br>
+Untuk menuliskan sebuah atribut kita memerlukan nama dari atribut itu diikuti dengan nilai atribut tersebut dalam bentuk string (Dituliskan dalam tanda kutip dua). Untuk lebih jelasnya, perhatikan gambar berikut:</br></br>
+Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan kembali seluruh struktur atribut di samping dari atribut yang sudah ada. Contohnya pada elemen paragraf di atas, kita akan memberikan sebuah atribut translate, sehingga penulisannya menjadi seperti ini:</p>
+
+```plantuml
+<p lang="id" translate="no">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+```
+<p align="justify">
+Dengan menambahkan atribut translate dan memberikan nilai “no” pada elemen paragraf tersebut, maka konten dari elemen yang dimaksud tidak akan diterjemahkan oleh layanan sistem translate otomatis seperti Google Translate.</br></br>
+Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML terdapat dua jenis atribut, yaitu Global Attribute dan atribut yang hanya bisa digunakan pada elemen tertentu. Untuk atribut yang spesifik pada sebuah elemen, kita akan mengulasnya   pada pembahasan elemen tersebut. Untuk Global Attribute, berikut daftar atribut yang bisa kita gunakan di seluruh elemen HTML.</p>
+<p align="justify"><table>
+ <tr><td>Attribute</td><td>Description</td></tr>
+<tr><td>accesskey</td><td>
+
+Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.
+
+<tr><td>class</td><td>
+
+Menentukan satu atau lebih classname untuk sebuah elemen.
+
+<tr><td>contenteditable</td><td>
+
+Menentukan konten dari elemen merupakan konten yang dapat diubah atau tidak.
+
+<tr><td>data-*</td><td>
+
+Digunakan untuk menyimpan sebuah data pribadi khusus ke halaman atau aplikasi.
+
+<tr><td>dir</td><td>
+
+Menentukan arah teks untuk konten pada suatu elemen.
+
+<tr><td>draggable</td><td>
+
+Menentukan apakah suatu elemen dapat di-drag atau tidak.
+
+<tr><td>dropzone</td><td>
+
+Menentukan apakah data yang di-drag adalah data yang disalin, dipindahkan, atau ditautkan saat dijatuhkan.
+
+<tr><td>hidden</td><td>
+
+Menentukan apakah suatu elemen ditampilkan atau tidak pada browser.
+
+<tr><td>id</td><td>
+
+Menetapkan id pada elemen.
+
+lang
+
+Menentukan bahasa pada konten elemen.
+
+spellcheck
+
+Menentukan apakah elemen harus diperiksa ejaannya dan tata bahasanya atau tidak.
+
+style
+
+Menentukan styling secara satu baris untuk suatu elemen.
+
+tabindex
+
+Menentukan urutan dari suatu elemen.
+
+title
+
+Menentukan informasi tambahan tentang suatu elemen.
+
+translate
+
+Menentukan apakah konten elemen harus diterjemahkan atau tidak.</tr>
