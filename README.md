@@ -155,8 +155,7 @@ Website : Halaman yang menampilkan informasi melalui teks atau gambar. Website d
 Pada sub-modul sebelumnya kita sudah mengenal apa itu elemen. Elemen dituliskan dengan awalan tag pembuka <> dan diakhiri dengan tag penutup </>. Ada satu hal lagi yang bisa kita tuliskan pada sebuah elemen, lebih tepatnya pada sebuah tag pembuka, yaitu Attribute. Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. Atribut dituliskan pada tag pembuka sebuah elemen setelah nama dari elemennya tersebut ditulis. Contohnya:</br></br>
 
 ```plantuml
-<p lang="id">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi 
-tersebut.</p>
+<p lang="id">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
 ```
 
 Pada contoh kode tersebut, kita menetapkan artibut bahasa (dengan penulisan lang) dengan nilai “id” atau Indonesia (kode bahasa bisa kita explore pada link berikut: https://www.w3schools.com/tags/ref_language_codes.asp) pada sebuah elemen paragraf.</br></br>
@@ -166,6 +165,7 @@ Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan 
 ```plantuml
 <p lang="id" translate="no">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
 ```
+
 <p align="justify">
 Dengan menambahkan atribut translate dan memberikan nilai “no” pada elemen paragraf tersebut, maka konten dari elemen yang dimaksud tidak akan diterjemahkan oleh layanan sistem translate otomatis seperti Google Translate.</br></br>
 Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML terdapat dua jenis atribut, yaitu Global Attribute dan atribut yang hanya bisa digunakan pada elemen tertentu. Untuk atribut yang spesifik pada sebuah elemen, kita akan mengulasnya   pada pembahasan elemen tersebut. Untuk Global Attribute, berikut daftar atribut yang bisa kita gunakan di seluruh elemen HTML.</p>
