@@ -150,14 +150,14 @@ Website : Halaman yang menampilkan informasi melalui teks atau gambar. Website d
 <li>Rich text : Teks terformat. Format teks yang digunakan ketika kita menulis menggunakan Microsoft Word atau teks editor berbasis WYSIWYG (What You See Is What You Get).</li>
 <li>Element : Sebuah komponen pada HTML yang ditandai dengan tag pembuka dan penutup.</li></ol>
 </p>
-<p align="justify">
- <b>Atribut HTML</b></br>
-Pada sub-modul sebelumnya kita sudah mengenal apa itu elemen. Elemen dituliskan dengan awalan tag pembuka <> dan diakhiri dengan tag penutup </>. Ada satu hal lagi yang bisa kita tuliskan pada sebuah elemen, lebih tepatnya pada sebuah tag pembuka, yaitu Attribute. Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. Atribut dituliskan pada tag pembuka sebuah elemen setelah nama dari elemennya tersebut ditulis. Contohnya:</br></br>
+<p align="justify"><b>Atribut HTML</b></br>
+Pada sub-modul sebelumnya kita sudah mengenal apa itu elemen. Elemen dituliskan dengan awalan tag pembuka <> dan diakhiri dengan tag penutup </>. Ada satu hal lagi yang bisa kita tuliskan pada sebuah elemen, lebih tepatnya pada sebuah tag pembuka, yaitu Attribute. Atribut ini berfungsi memberikan informasi tambahan pada sebuah elemen. Atribut dituliskan pada tag pembuka sebuah elemen setelah nama dari elemennya tersebut ditulis. Contohnya:</p>
 
 ```plantuml
 <p lang="id">Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
 ```
 
+<p align="justify">
 Pada contoh kode tersebut, kita menetapkan artibut bahasa (dengan penulisan lang) dengan nilai “id” atau Indonesia (kode bahasa bisa kita explore pada link berikut: https://www.w3schools.com/tags/ref_language_codes.asp) pada sebuah elemen paragraf.</br></br>
 Untuk menuliskan sebuah atribut kita memerlukan nama dari atribut itu diikuti dengan nilai atribut tersebut dalam bentuk string (Dituliskan dalam tanda kutip dua). Untuk lebih jelasnya, perhatikan gambar berikut:</br></br>
 Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan kembali seluruh struktur atribut di samping dari atribut yang sudah ada. Contohnya pada elemen paragraf di atas, kita akan memberikan sebuah atribut translate, sehingga penulisannya menjadi seperti ini:</p>
@@ -169,7 +169,7 @@ Atribut pada elemen juga dapat dituliskan lebih dari satu. Kita bisa menuliskan 
 <p align="justify">
 Dengan menambahkan atribut translate dan memberikan nilai “no” pada elemen paragraf tersebut, maka konten dari elemen yang dimaksud tidak akan diterjemahkan oleh layanan sistem translate otomatis seperti Google Translate.</br></br>
 Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML terdapat dua jenis atribut, yaitu Global Attribute dan atribut yang hanya bisa digunakan pada elemen tertentu. Untuk atribut yang spesifik pada sebuah elemen, kita akan mengulasnya   pada pembahasan elemen tersebut. Untuk Global Attribute, berikut daftar atribut yang bisa kita gunakan di seluruh elemen HTML.</p>
-<p align="justify"><table>
+<table align="justify">
  <tr align="center"><td><b> Attribute</b></td><td><b> Description</b></td></tr>
 <tr><td>accesskey</td><td>Menentukan tombol shortcut untuk mengaktifkan/memfokuskan pada sebuah element.</td></tr>
 <tr><td>class</td><td>Menentukan satu atau lebih classname untuk sebuah elemen.</td></tr>
@@ -185,10 +185,10 @@ Lantas atribut apa saja yang dapat digunakan pada elemen HTML? Pada elemen HTML 
 <tr><td>style</td><td>Menentukan styling secara satu baris untuk suatu elemen.</td></tr>
 <tr><td>tabindex</td><td>Menentukan urutan dari suatu elemen.</td></tr>
 <tr><td>title</td><td>Menentukan informasi tambahan tentang suatu elemen.</td></tr>
-<tr><td>translate</td><td>Menentukan apakah konten elemen harus diterjemahkan atau tidak.</td></tr></table></p>
+<tr><td>translate</td><td>Menentukan apakah konten elemen harus diterjemahkan atau tidak.</td></tr></table>
 
 <p align="justify"><b>Paragraf</b></br>
-Paragraf adalah elemen paling mendasar dari sebuah dokumen teks. Pada HTML, kita bisa menunjukkan sebuah paragraf dengan menggunakan elemen <p>. Contohnya seperti ini:
+Paragraf adalah elemen paling mendasar dari sebuah dokumen teks. Pada HTML, kita bisa menunjukkan sebuah paragraf dengan menggunakan elemen <p>. Contohnya seperti ini:</p>
 
 ```plantuml
 <p>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung Tangkuban Parahu 
@@ -199,11 +199,10 @@ yang lalu membentuk telaga...</p>
    menyaksikan atau bersaksi...</p>
 ```
 
-Ketika menggunakan paragraf pada browser, teks selalu ditampilkan dengan garis baru dan terdapat sedikit jarak (space) antar elemennya. Jarak tersebut nantinya bisa kita atur ketika sudah menerapkan styling.
+<p align="justify">Ketika menggunakan paragraf pada browser, teks selalu ditampilkan dengan garis baru dan terdapat sedikit jarak (space) antar elemennya. Jarak tersebut nantinya bisa kita atur ketika sudah menerapkan styling.</p>
 
 <table align="justify"><tr><td>Output :</br></br>Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum  oleh lava Gunung Tangkuban Parahu yang lalu membentuk telaga...</br></br>
    Berdasarkan filosofi Sunda, kata Bandung juga berasal dari kalimat Nga-Bandung-an Banda Indung, yang merupakan kalimat sakral dan luhur karena mengandung nilai ajaran Sunda. Nga-Bandung-an artinya menyaksikan atau bersaksi...</td></tr></table>
 
-Paragraf dapat terdiri dari teks, elemen gambar, dan inline element lainnya. Tetapi hindarilah penggunaan element paragraf untuk konten seperti heading atau list, karena terdapat elemen lain yang lebih tepat untuk digunakan.</br></br>
-
+<p align="justify">Paragraf dapat terdiri dari teks, elemen gambar, dan inline element lainnya. Tetapi hindarilah penggunaan element paragraf untuk konten seperti heading atau list, karena terdapat elemen lain yang lebih tepat untuk digunakan.</br></br>
 “Pastikan kita selalu menggunakan elemen (tags) dalam seluruh teks yang ada pada dokumen. Teks yang berada pada dokumen HTML tanpa tags disebut “anonymous text” dan ini dapat menyebabkan dokumen HTML menjadi tidak valid.”</p>
