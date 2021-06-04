@@ -246,7 +246,7 @@ Di antara tag elemen < li >, kita dapat mengisikan konten apapun termasuk elemen
  
  Seperti yang kita sudah ketahui, maka list item akan menampilkan seperti format header.
  
- <table><tr><td>
+ <table><tr><td>Output :</br>
   <ul>
    <li><h1>Sebuah Heading sebagai item list</h1></li>
    <li><h2>Sebuah Heading level 2 sebagai item list</h2></li>
