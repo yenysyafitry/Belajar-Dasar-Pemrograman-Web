@@ -126,7 +126,7 @@ Maka seluruh konten yang dituliskan di dalam elemen <body> akan nampak pada brow
   
 <p align="justify">Sebuah komentar berguna untuk memberikan label dan mengorganisir sebuah dokumen yang panjang, terlebih ketika kita bekerja secara tim.</br></br>
 <b>Lorem Ipsum</b></br>
-Lorem ipsum adalah teks standar yang ditempatkan untuk mendemonstrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Tujuan penggunaan lorem ipsum sebagai berikut:</br></br><ol align="justify">
+Lorem ipsum adalah teks standar yang ditempatkan untuk mendemonstrasikan elemen grafis atau presentasi visual seperti font, tipografi, dan tata letak. Tujuan penggunaan lorem ipsum sebagai berikut:<ol align="justify">
 <li>Sebagai pengisi sementara jika belum ada konten teks.</li>
 <li>Jika ingin menunjukkan hasil website sementara di mana audiens diharapkan lebih fokus kepada elemen desain yang dipresentasikan dan bukan pada isi teks.</li></ol>
 Ada berbagai cara untuk membuat teks lorem ipsum seperti berikut:
