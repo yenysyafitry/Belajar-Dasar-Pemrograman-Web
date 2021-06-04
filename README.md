@@ -58,15 +58,20 @@ Berkas HTML dasarnya memiliki struktur yang nampak seperti ini:
 <p align="justify"><b>Elemen <html></b></br>
 Hierarki elemen teratas pada berkas HTML adalah elemen HTML-nya itu sendiri. Elemen ini digunakan untuk memberitahu kepada browser bahwa ini merupakan sebuah berkas HTML sekaligus menjadi root dari sebuah berkasnya itu. Seluruh elemen lainnya tentunya dituliskan pada konten elemen ini.</br></br>
 <b>Elemen <head></b></br>
-Elemen <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi dari dokumen HTML. Informasi dapat berupa elemen meta, style, atau link. Dan juga pada elemen ini judul dari dokumen HTML didefinisikan dengan menggunakan elemen <title>. Berikut contoh elemen yang berada pada konten head:</p>
-<ol align="justify">
-<li><title> </li>
-<li><style></li>
-<li><base></li>
-<li><link></li>
-<li><meta></li>
-<li><script></li>
-  <li><noscript></li></ol>
+Elemen <head> pada berkas HTML berfungsi sebagai tempat disimpannya informasi dari dokumen HTML. Informasi dapat berupa elemen meta, style, atau link. Dan juga pada elemen ini judul dari dokumen HTML didefinisikan dengan menggunakan elemen <title>. Berikut contoh elemen yang berada pada konten head:
+ 
+  ```plantuml
+1.<title> 
+2.<style>
+3.<base>
+4.<link>
+5.<meta>
+6.<script>
+7.<noscript>
+```
+ 
+ </p>
+
 <p align="justify">Pada HTML versi 4.01, elemen <head> wajib ada dalam sebuah berkas HTML. Berikut contoh penulisan sebuah elemen <head> beserta contoh konten di dalamnya:</br>
   
   ```plantuml
