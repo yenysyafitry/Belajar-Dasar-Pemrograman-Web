@@ -402,3 +402,21 @@ Sehingga pada browser akan menampilkan list seperti ini.
 
  
  </td></tr></table>
+
+<p align="justify"><b>Gambar</b></br>
+Pada HTML untuk menampilkan sebuah gambar kita bisa menggunakan tag <img>. Berbeda dengan elemen lain, elemen <img> tidak menuliskan konten di antara tag pembuka dan tag penutup. Tetapi untuk menetapkan gambar yang ditampilkan kita gunakan sebuah atribut. Contohnya seperti ini: </br>
+
+```plantuml
+<img src="https://github.com/yenysyafitry/Belajar-Dasar-Pemrograman-Web/blob/main/gambar2.jpeg" alt="dicoding">
+```
+
+Pada contoh kode di atas, perlu kita perhatikan bahwa element <img> merupakan sebuah elemen kosong (tidak memiliki konten sehingga tidak ada closing tag).</br></br> 
+Selain itu, yang perlu kita perhatikan adalah atribut yang ada pada elemen tersebut, terdapat dua elemen yang harus kita gunakan ketika menerapkan elemen <img>.</br></br>
+Yang pertama, atribut src. Atribut ini berfungsi sebagai sumber dari gambar yang ditampilkan. Atribut ini dapat bernilai url gambar atau path gambar lokal dari gambar yang digunakan.</br></br> 
+Selanjutnya adalah atribut alt. Atribut ini sebenarnya tidak wajib untuk diterapkan, hanya saja atribut ini akan sangat berguna ketika gambar tidak berhasil ditampilkan. Nilai atribut ini merupakan gambaran dari gambar yang ditampilkan dalam bentuk tulisan. Sehingga ketika gambar gagal ditampilkan maka akan memunculkan teks alternatif yang dapat mewakili arti dari gambar tersebut.  </br></br> 
+Selanjutnya terdapat atribut lain yang bisa Anda gunakan pada elemen ini, contohnya title. Title berfungsi sebagai informasi tambahan untuk sebuah gambar. Informasi tersebut akan muncul ketika kita mengarahkan sebuah cursor pada gambar yang ditampilkan.</p>
+
+
+
+Jenis format gambar
+Berikut adalah jenis format gambar yang umum digunakan pada pembuatan website.
