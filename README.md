@@ -418,7 +418,7 @@ Selanjutnya terdapat atribut lain yang bisa Anda gunakan pada elemen ini, contoh
 <b>Jenis format gambar</b></br>
 Berikut adalah jenis format gambar yang umum digunakan pada pembuatan website.</p>
 
-<table align="justify"><tr align="center"><td>Nama</td><td>  Ekstensi Format File  </td><td>Keterangan</td></tr>
+<table align="justify"><tr align="center"><td><b>Nama</b></td><td>  <b>Ekstensi Format File  </b></td><td><b>Keterangan</b></td></tr>
 <tr><td>Graphics Interchange Format </td><td> .gif </td><td>Dapat digunakan untuk gambar animasi.</br>Ukuran file biasanya kecil.</br>Kualitas gambar terbatas.</td></tr>
 <tr><td>Joint Photographic Expert Group image</td><td> .jpg, .jpeg, .jfif, .pjpeg, .pjp </td><td>Kualitas text pada gambar dapat menjadi buruk.</br>Ukuran file lumayan kecil.</br>Pada website biasanya digunakan untuk gambar yang tidak banyak text.</td></tr>
 <tr><td>Portable Network Graphics</td><td>.png</td><td>Text lebih bisa terbaca dibandingkan jenis Jpeg.
