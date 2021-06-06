@@ -425,4 +425,20 @@ Berikut adalah jenis format gambar yang umum digunakan pada pembuatan website.</
 Ukuran file dapat menjadi besar sehingga mengurangi kecepatan memuat situs.</td></tr>
 <tr><td>WebP</td><td>.webp</td><td>Dibandingkan dengan gambar berkualitas sama pada jpeg atau png, ukuran file pada webp dapat menjadi lebih kecil.</br>
 Namun tidak semua web browser dapat membaca webp.</td></tr>
-<tr><td>Scalable Vector Graphics</td><td>.svg</td><td>Kualitas gambar terjaga dan ukuran file kecil.</br>Namun tidak cocok untuk gambar yang terlalu kompleks seperti foto.</br>Pada website biasanya digunakan untuk logo atau icon.</td></tr>
+<tr><td>Scalable Vector Graphics</td><td>.svg</td><td>Kualitas gambar terjaga dan ukuran file kecil.</br>Namun tidak cocok untuk gambar yang terlalu kompleks seperti foto.</br>Pada website biasanya digunakan untuk logo atau icon.</td></tr></table>
+<p align="justify"><b>Mengatur ukuran pada gambar</b></br>
+Untuk mengatur ukuran gambar yang ditampilkan juga tentunya menggunakan sebuah atribut. Untuk menentukan lebar gambar kita gunakan atribut width, dan untuk menentukan tinggi tentu gunakan atribut height.</br></br>
+Ketika menggunakan atribut ini disarankan hanya gunakan salah satunya. Terkecuali kita menentukan nilai lebar dan tingginya sesuai dengan rasio dari ukuran gambar aslinya.</br></br>
+Contohnya, jika kita tetap memaksa untuk menentukan ukuran panjang dan lebar sebuah gambar tanpa menyesuaikan rasionya, maka gambar yang ditampilkan tidak akan proporsional.</p>
+
+```plantuml
+<!-- Menetapkan ukuran gambar berdasarkan lebar -->
+<img src="https://i.imgur.com/EUUXQcf.png" alt="dicoding" width="500px">
+
+<!-- Menetapkan ukuran gambar berdasarkan tinggi -->
+<img src="https://i.imgur.com/EUUXQcf.png" alt="dicoding" height="100px">
+```
+
+<p align="justify"><b>Menambahkan Gambar pada Halaman Profil</b></br>
+Setelah mempelajari penerapan list pada HTML, sekarang kita coba terapkan elemen gambar konten yang terdapat di halaman profil yang sebelumnya sudah kita buat. Sebelum menerapkannya, silakan unduh resource gambar yang digunakan pada latihan melalui tautan berikut: assets.zip </br>
+Pindahkan berkas yang sudah diunduh pada folder yang sama dengan berkas index.html.</p>
