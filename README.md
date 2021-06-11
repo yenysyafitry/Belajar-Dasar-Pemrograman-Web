@@ -662,7 +662,7 @@ Gunakan elemen < em > untuk menunjukan bagian kata yang perlu kita tekankan. Ele
 <table><tr><td><p><em>Oding</em> adalah seorang pelajar</p>
  <p>Dia adalah seorang <em>pelajar</em></p></td></tr></table>
 
-<p align="justify"><b>Important text</b>
+<p align="justify"><b>Important text</b></br>
 Gunakan elemen < strong > untuk menunjukan sebuah teks yang begitu penting (strong importance), serius, ataupun mendesak. Dalam arti teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.</p>
  
  ```plantuml
@@ -685,3 +685,40 @@ Gunakan elemen < q > untuk menandai sebuah kutipan dalam sebuah teks. Elemen sho
 <p align="justify">Standarnya pada browser sebuah teks yang diberi markup < q > akan ditampilkan di dalam tanda kutip (Quotation marks).</p>
  
  <table><tr><td><p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p></td></tr></table>
+
+<p align="justify"><b>Citation</b></br>
+Selain sebuah atribut, < cite > juga merupakan sebuah elemen yang digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel dan lainnya.</p>
+
+```plantuml
+<p>Informasi selengkapnya bisa Anda dapatkan di <cite>
+<a href="https://dicoding.com">dicoding.com</a></cite>.</p>
+```
+
+<p align="justify">Standarnya pada browser sebuah teks yang diberi markup < cite > akan ditampilkan dengan garis miring (italic).</p>
+<table><tr><td><p>Informasi selengkapnya bisa Anda dapatkan di <cite>
+<a href="https://dicoding.com">dicoding.com</a></cite>.</p> </td></tr></table>
+ 
+<p align="justify"><b> Defining terms</b></br>
+Elemen < dfn> digunakan ketika mendefinisikan sebuah istilah ( term). Elemen ini harus terletak pada elemen lain yang menaunginya. Contohnya pada sebuah elemen < p> atau elemen < section>. Berikut contoh penggunaannya:</p>
+
+```plantuml
+<p><dfn>Website</dfn> merupakan halaman yang menampilkan informasi melalui teks atau gambar. 
+ Website dapat diakses melalui internet dengan menggunakan browser.</p>
+```
+
+<p align="justify">Standar pada browser yakni sebuah teks yang diberi markup < dfn> akan ditampilkan dengan garis miring (italic).</p>
+ <table><tr><td><p><dfn>Website</dfn> merupakan halaman yang menampilkan informasi melalui teks atau gambar. Website dapat diakses melalui internet dengan menggunakan browser.</p>
+  </td></tr></table>
+
+<p align="justify"><b> Subscript dan Superscript</b></br>
+Subscript < sub> dan superscript < sup> merupakan elemen yang dapat membuat teks yang ditampilkan nampak kecil, dengan posisi di bawah ( sub) atau di atas ( sup) dari teks biasanya. Elemen ini digunakan untuk menunjukan sebuah rumus kimia ataupun matematika.</p>
+
+```plantuml
+<p>Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
+ 
+<p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p> 
+```
+
+<p align="justify">Jika kita lihat pada browser, tampilan akan tampak seperti ini:</p>
+<table><tr><td><p>Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
+ <p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p> </td></tr></table>
