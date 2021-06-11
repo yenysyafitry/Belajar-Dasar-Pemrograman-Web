@@ -644,7 +644,7 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 <tr><td>href</td><td>URL</td><td>Menetapkan target yang akan diarahkan/unduh ketika pengguna menekan hyperlink.</td></tr>
 <tr><td>hreflang</td><td>language_code</td><td>Menetapkan bahasa dari dokumen target.</td></tr>
 <tr><td>ping</td><td>list_of_URLs</td><td>Menetapkan URL yang akan diberitahu dengan mengirimkan post request ping pada body oleh browser (berjalan di belakang layar) ketika target URL pada hyperlink ditekan. Biasanya atribut ini digunakan untuk pelacakan.</td></tr>
-<tr><td>referrerpolicy</td><td>no-referrer, no-referrer-when-downgrade,origin,origin-when-cross-origin, unsafe-url</td><td>Menetapkan referensi untuk dikirim pada target.</td></tr>
-<tr><td>rel</td><td>alternate,author,bookmark,external,help,license,next,nofollow,noreferrer,noopener,prev,search,tag</td><td>Menetapkan hubungan antara halaman yang ditampilkan dengan target.</td></tr>
+<tr><td>referrerpolicy</td><td>no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url</td><td>Menetapkan referensi untuk dikirim pada target.</td></tr>
+<tr><td>rel</td><td>alternate,author,bookmark, external, help, license, next, nofollow, noreferrer, noopener, prev, search, tag</td><td>Menetapkan hubungan antara halaman yang ditampilkan dengan target.</td></tr>
 <tr><td>target</td><td>_blank,_parent,_self,_top</td><td>Menetapkan lokasi ketika membuka target contohnya pada sebuah tab, window atau pada tab itu sendiri.</td></tr>
 <tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr><table>
