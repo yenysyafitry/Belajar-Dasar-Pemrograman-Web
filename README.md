@@ -498,3 +498,59 @@ Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita d
    <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya   berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
 </blockquote>
 
+<p align="justify">Pada elemen ini kita dapat menggunakan atribut cite untuk menentukan sumber URL dari sebuah kutipan (Jika kutipan tersebut bersumber dari sebuah situs website).</p>
+
+```plantuml
+<blockquote cite="https://id.wikipedia.org/wiki/Situs_web">
+   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
+</blockquote>
+```
+
+<p align="justify"><b>Preformatted text</b></br>
+Pada sub-modul sebelumnya, kita sudah mengetahui bahwa HTML akan mengabaikan penulisan spasi yang dituliskan secara berulang dan juga line breaks (baris baru). Tetapi pada beberapa tipe konten seperti contoh kode atau puisi hal tersebut sangat berarti. Dengan begitu, terdapat sebuah elemen yang dapat kita gunakan untuk menampilkan konten sesuai yang kita tulis pada text editor. Untuk menggunakannya, kita gunakan elemen < pre > sebagai pembungkus kontennya. Perhatikan contoh berikut:</p>
+
+```plantuml
+<pre>
+   SAJAK PUTIH
+ 
+Bersandar pada tari warna pelangi
+Kau depanku bertudung sutra senja
+Di hitam matamu kembang mawar dan melati
+Harum rambutmu mengalun bergelut senda
+ 
+Sepi menyanyi, malam dalam mendoa tiba
+Meriak muka air kolam jiwa
+Dan dalam dadaku memerdu lagu
+Menarik menari seluruh aku
+ 
+Hidup dari hidupku, pintu terbuka
+Selama matamu bagiku menengadah
+Selama kau darah mengalir dari luka
+Antara kita Mati datang tidak membelah...
+ 
+                   Karya : Chairil Anwar
+</pre>
+```
+
+<p align="justify">Sehingga pada browser akan menampilkan hasil yang sama seperti yang kita tuliskan.</p>
+
+<pre>
+   SAJAK PUTIH
+ 
+Bersandar pada tari warna pelangi
+Kau depanku bertudung sutra senja
+Di hitam matamu kembang mawar dan melati
+Harum rambutmu mengalun bergelut senda
+ 
+Sepi menyanyi, malam dalam mendoa tiba
+Meriak muka air kolam jiwa
+Dan dalam dadaku memerdu lagu
+Menarik menari seluruh aku
+ 
+Hidup dari hidupku, pintu terbuka
+Selama matamu bagiku menengadah
+Selama kau darah mengalir dari luka
+Antara kita Mati datang tidak membelah...
+ 
+                   Karya : Chairil Anwar
+</pre>
