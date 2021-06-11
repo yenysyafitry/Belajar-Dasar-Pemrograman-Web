@@ -714,7 +714,8 @@ Elemen < dfn> digunakan ketika mendefinisikan sebuah istilah ( term). Elemen ini
 Subscript < sub> dan superscript < sup> merupakan elemen yang dapat membuat teks yang ditampilkan nampak kecil, dengan posisi di bawah ( sub) atau di atas ( sup) dari teks biasanya. Elemen ini digunakan untuk menunjukan sebuah rumus kimia ataupun matematika.</p>
 
 ```plantuml
-<p>Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
+<p>Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit
+glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
  
 <p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p> 
 ```
@@ -722,3 +723,49 @@ Subscript < sub> dan superscript < sup> merupakan elemen yang dapat membuat teks
 <p align="justify">Jika kita lihat pada browser, tampilan akan tampak seperti ini:</p>
 <table><tr><td><p>Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>.</p>
  <p>Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup></p> </td></tr></table>
+ 
+<p align="justify"><b> Highlighted text</b></br>
+Untuk menandai atau menyorot sebuah teks kita bisa menggunakan elemen < mark>. Elemen ini digunakan ketika terdapat sebuah teks yang memiliki peran penting, biasanya teks tersebut merupakan bagian yang paling relevan atau penting dalam sebuah konteks kalimat.</p>
+
+```plantuml
+<p>Ini adalah periode perang saudara. Pesawat ruang angkasa pemberontak, menyerang dari pangkalan tersembunyi, telah
+   memenangkan kemenangan pertama mereka melawan Kekaisaran Galactic yang jahat. Selama pertempuran,
+   <mark>mata-mata
+       Pemberontak berhasil mencuri rencana rahasia
+   </mark>
+   ke senjata pamungkas Kekaisaran, STAR DEATH, stasiun ruang angkasa
+   berlapis baja dengan kekuatan yang cukup untuk menghancurkan seluruh planet.
+</p>
+```
+
+<p align="justify">Standarnya pada browser teks yang diberi markup < mark> akan ditampilkan dengan background kuning dan teks hitam.</p>
+ <table><tr><td><p>Ini adalah periode perang saudara. Pesawat ruang angkasa pemberontak, menyerang dari pangkalan tersembunyi, telah
+   memenangkan kemenangan pertama mereka melawan Kekaisaran Galactic yang jahat. Selama pertempuran,
+   <mark>mata-mata
+       Pemberontak berhasil mencuri rencana rahasia
+   </mark>
+   ke senjata pamungkas Kekaisaran, STAR DEATH, stasiun ruang angkasa
+   berlapis baja dengan kekuatan yang cukup untuk menghancurkan seluruh planet.
+</p></td></tr></table>
+ 
+<p align="justify"><b> Line Break</b></br>
+Terkadang kita mungkin perlu menambahkan sebuah baris baru pada sebuah baris teks (termasuk di dalam paragraf), tetapi kita mengetahui bahwa browser akan mengabaikan sebuah penulisan spasi ganda ataupun garis baru, sehingga kita memerlukan sebuah tanda yang dapat digunakan untuk memberitahu browser untuk “Tambahkan garis baru di sini!”.</br></br>
+Inline line break element atau < br> dapat digunakan untuk memberitahu browser untuk memberikan sebuah garis baru pada baris teks. Sama seperti gambar, elemen ini merupakan elemen kosong sehingga kita tidak membutuhkan sebuah tag penutup.</p>
+
+```plantuml
+<p>
+   Dicoding Space,<br>
+   Jln. Batik Kumeli No. 50.<br>
+   Bandung.<br>
+   40123
+</p>
+```
+
+<p align="justify">Jika kita lihat pada browser, maka tampilan akan tampak seperti ini:</p>
+
+<table><tr><td><p>
+   Dicoding Space,<br>
+   Jln. Batik Kumeli No. 50.<br>
+   Bandung.<br>
+   40123
+</p></td></tr></table>
