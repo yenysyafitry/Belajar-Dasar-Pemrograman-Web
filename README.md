@@ -639,7 +639,7 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 ```
 
 <p align="justify">Selain atribut href, terdapat beberapa atribut khusus yang dapat digunakan pada elemen ini, antara lain:</p>
-<table><tr><td>Atribut</td><td width="10px>Nilai</td><td>Deskripsi</td></tr>
+<table><tr><th width="100px">Atribut</th><th width="200px">Nilai</th><th width="300px">Deskripsi</th></tr>
 <tr><td>download</td><td>filename</td><td>Menginstruksikan browser untuk mengunduh pada URL yang ditetapkan daripada mengarahkannya. </td></tr> 
 <tr><td>href</td><td>URL</td><td>Menetapkan target yang akan diarahkan/unduh ketika pengguna menekan hyperlink.</td></tr>
 <tr><td>hreflang</td><td>language_code</td><td>Menetapkan bahasa dari dokumen target.</td></tr>
