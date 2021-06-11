@@ -441,4 +441,59 @@ Contohnya, jika kita tetap memaksa untuk menentukan ukuran panjang dan lebar seb
 
 <p align="justify"><b>Menambahkan Gambar pada Halaman Profil</b></br>
 Setelah mempelajari penerapan list pada HTML, sekarang kita coba terapkan elemen gambar konten yang terdapat di halaman profil yang sebelumnya sudah kita buat. Sebelum menerapkannya, silakan unduh resource gambar yang digunakan pada latihan melalui tautan berikut: assets.zip </br>
-Pindahkan berkas yang sudah diunduh pada folder yang sama dengan berkas index.html.</p>
+Pindahkan berkas yang sudah diunduh pada folder yang sama dengan berkas index.html.</br>
+Kemudian lakukan ekstraksi pada berkas assets.zip tersebut dengan melakukan Klik Kanan -> Extract Here. </br>
+Jika berhasil, akan terbentuk folder dengan nama assets. Sampai langkah ini, berkas assets.zip sudah tidak digunakan. Kita bisa menghapusnya.</br>
+Pastikan di dalam folder assets -> image terdapat empat berkas gambar yang akan kita gunakan pada latihan.</br>
+Silakan buka kembali berkas index.html pada teks editor. Tambahkan elemen gambar di bawah elemen heading sesuai kontennya masing-masing.</p>
+
+```plantuml
+<body>
+  ……
+ 
+   <h2>Sejarah</h2>
+   <img src="assets/image/history.jpg" alt="sejarah">
+ 
+  …….
+ 
+   <h2>Geografis</h2>
+   <img src="assets/image/geografis.jpg" alt="geografis">
+ 
+  …….
+ 
+   <h2>Wisata</h2>
+ 
+  …….
+ 
+ 
+   <h3>Farm House Lembang</h3>
+   <img src="assets/image/farm-house.jpg" alt="farm house">
+
+ 
+  …….
+   <h3>Observatorium Bosscha</h3>
+   <img src="assets/image/bosscha.jpg" alt="bosscha">
+  …….
+</body>
+```
+
+<p align="justify">Perhatikan penulisan nilai dari atribut src. Penulisan sedikit berbeda dengan yang telah kita pelajari. Penulisan alamat gambar tidak dimulai dengan https://www, karena kita menggunakan gambar lokal yang ada pada project kita. Sehingga untuk penulisan path-nya mengarah ke lokasi dari berkas gambar tersebut.</br></br>
+<b>Teks Terformat</b></br>
+Sejauh ini, kita sudah mengenal paragraf, heading dan juga list pada HTML. Tapi masih ada beberapa lagi yang merupakan spesial teks format yang dapat kita gunakan yaitu <blockquote>, <pre>, dan <figure>.</br></br>
+<b>Long quotations</b></br>
+Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita dapat gunakan format long quotations dengan menggunakan tags <blockquote>. Konten di dalam elemen <blockquote> ini dapat berupa sebuah paragraf, heading, ataupun list. 
+</p>
+
+```plantuml
+<blockquote>
+   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang 
+   saling berhubungan yang umumnya   berada pada peladen yang sama berisikan 
+   kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
+</blockquote>
+```
+
+<p align="justify">Berikut tampilan standar ketika kita sebuah konten berada di dalam <blockquote>.</p>
+
+<blockquote>
+   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya   berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
+</blockquote>
