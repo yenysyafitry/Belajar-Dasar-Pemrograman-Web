@@ -620,3 +620,31 @@ Elemen ini digunakan untuk merepresentasikan konten tersendiri (self-contained c
    </pre>
    <figcaption>Sajak Putih oleh Charil Anwar</figcaption>
 </figure></td></tr></table>
+
+
+<p align="justify"><b>Inline Formatting Text</b></br>
+Kita sudah belajar mengidentifikasi penggunaan elemen pada konten yang major (besar) dengan menerapkan semantic HTML untuk mengorganisasikan kontennya. Sekarang kita akan mengenal beberapa formatting text yang digunakan dalam sebuah baris teks (inline text). </br></br>
+Sebelum menjelaskan elemen inline untuk formatting text yang dapat digunakan, sepertinya kita perlu membahas sekilas mengenai block dan inline. Standarnya elemen HTML memiliki dua sifat yaitu block dan inline. Elemen yang memiliki sifat block selalu membuat baris baru ketika menampilkannya, contohnya seperti elemen paragraf, list, heading, dan lainnya. Berlawanan dengan elemen yang memiliki sifat inline, elemen ini tidak menambahkan baris baru ketika dibuat. Apa saja elemen tersebut? Mari kita bahas satu persatu.</br></br>
+<b>Anchor</b></br>
+Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat sebuah hyperlink ke halaman atau website lain, file, alamat email, atau URL lainnya. Untuk menggunakan elemen ini kita gunakan tag <a>...</a> bersama dengan atribut href untuk menetapkan sebuah target yang akan dituju.</p>
+
+ ```plantuml
+ <p>Hubungi kami di</p>
+<ul>
+   <li><a href="https://example.com">Website</a></li>
+   <li><a href="mailto:info@example.com">Email</a></li>
+   <li><a href="tel:+62123456">Telepon</a></li>
+   <li><a href="#address">Alamat</a></li>
+</ul> 
+```
+
+<p align="justify">Selain atribut href, terdapat beberapa atribut khusus yang dapat digunakan pada elemen ini, antara lain:</p>
+<table><tr><td>Atribut</td><td>Nilai</td><td>Deskripsi</td></tr>
+<tr><td>download</td><td>filename</td><td>Menginstruksikan browser untuk mengunduh pada URL yang ditetapkan daripada mengarahkannya. </td></tr> 
+<tr><td>href</td><td>URL</td><td>Menetapkan target yang akan diarahkan/unduh ketika pengguna menekan hyperlink.</td></tr>
+<tr><td>hreflang</td><td>language_code</td><td>Menetapkan bahasa dari dokumen target.</td></tr>
+<tr><td>ping</td><td>list_of_URLs</td><td>Menetapkan URL yang akan diberitahu dengan mengirimkan post request ping pada body oleh browser (berjalan di belakang layar) ketika target URL pada hyperlink ditekan. Biasanya atribut ini digunakan untuk pelacakan.</td></tr>
+<tr><td>referrerpolicy</td><td>no-referrer, no-referrer-when-downgrade,origin,origin-when-cross-origin, unsafe-url</td><td>Menetapkan referensi untuk dikirim pada target.</td></tr>
+<tr><td>rel</td><td>alternate,author,bookmark,external,help,license,next,nofollow,noreferrer,noopener,prev,search,tag</td><td>Menetapkan hubungan antara halaman yang ditampilkan dengan target.</td></tr>
+<tr><td>target</td><td>_blank,_parent,_self,_top</td><td>Menetapkan lokasi ketika membuka target contohnya pada sebuah tab, window atau pada tab itu sendiri.</td></tr>
+<tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr>
