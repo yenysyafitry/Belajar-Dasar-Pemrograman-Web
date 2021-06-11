@@ -479,9 +479,9 @@ Silakan buka kembali berkas index.html pada teks editor. Tambahkan elemen gambar
 
 <p align="justify">Perhatikan penulisan nilai dari atribut src. Penulisan sedikit berbeda dengan yang telah kita pelajari. Penulisan alamat gambar tidak dimulai dengan https://www, karena kita menggunakan gambar lokal yang ada pada project kita. Sehingga untuk penulisan path-nya mengarah ke lokasi dari berkas gambar tersebut.</br></br>
 <b>Teks Terformat</b></br>
-Sejauh ini, kita sudah mengenal paragraf, heading dan juga list pada HTML. Tapi masih ada beberapa lagi yang merupakan spesial teks format yang dapat kita gunakan yaitu <blockquote>, <pre>, dan <figure>.</br></br>
+Sejauh ini, kita sudah mengenal paragraf, heading dan juga list pada HTML. Tapi masih ada beberapa lagi yang merupakan spesial teks format yang dapat kita gunakan yaitu < blockquote >, < pre >, dan < figure >.</br></br>
 <b>Long quotations</b></br>
-Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita dapat gunakan format long quotations dengan menggunakan tags <blockquote>. Konten di dalam elemen <blockquote> ini dapat berupa sebuah paragraf, heading, ataupun list. 
+Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita dapat gunakan format long quotations dengan menggunakan tags < blockquote >. Konten di dalam elemen < blockquote > ini dapat berupa sebuah paragraf, heading, ataupun list. 
 </p>
 
 ```plantuml
@@ -492,6 +492,6 @@ Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita d
 </blockquote>
 ```
 
-<p align="justify">Berikut tampilan standar ketika kita sebuah konten berada di dalam <blockquote>.</p>
+<p align="justify">Berikut tampilan standar ketika kita sebuah konten berada di dalam < blockquote >.</p>
 
 
