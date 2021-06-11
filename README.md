@@ -502,7 +502,9 @@ Jika pada konten kita memiliki sebuah kutipan ataupun sebuah testimonial, kita d
 
 ```plantuml
 <blockquote cite="https://id.wikipedia.org/wiki/Situs_web">
-   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.</p>
+   <p>Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang saling 
+   berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi
+   yang disediakan secara perorangan, kelompok, atau organisasi.</p>
 </blockquote>
 ```
 
@@ -554,3 +556,67 @@ Antara kita Mati datang tidak membelah...
  
                    Karya : Chairil Anwar
 </pre>
+
+<p align="justify"><b>Figure</b></br>
+Elemen ini digunakan untuk merepresentasikan konten tersendiri (self-contained content) seperti ilustrasi, diagram, foto atau bisa juga sebuah baris kode. Banyak hal yang dapat digunakan dalam elemen ini. Elemen ini digunakan untuk mengkelompokkan blok konten yang dapat dipindahkan posisinya dari blok utama sebuah dokumen tanpa mempengaruhi arti dari induk dokumen. Di dalam elemen figure kita dapat menuliskan elemen <figcaption> sebagai sebuah caption (judul) untuk konten tersebut. Berikut contoh penggunaan figure pada sebuah konten gambar.</p>
+
+```plantuml
+<p>Dicoding adalah sebuah perusahaan startup yang bertujuan mengembangkan ekosistem developer di Indonesia.
+    Berdiri sejak 5 Januari 2015, Dicoding memiliki platform pembelajaran elektronik di laman Dicoding.com.</p>
+<figure>
+    <img src="https://i.imgur.com/cs2BJzw.jpg" alt="dicoding" width="200px">
+    <figcaption>Dicoding</figcaption>
+</figure>
+<p>Materi perdana yang menjadi magnet dari awal berdirinya Dicoding hingga kini adalah kelas Menjadi Android Developer
+    Expert. Kelas ini dikembangkan oleh Google Developer Expert in Android, Sidiq Permana dan Head of Dicoding Academy,
+    Ahmad Imaduddin. Seperti halnya kelas Picodiploma lain, modul online-nya juga hadir dalam bentuk buku berjudul sama
+    yang telah mendapatkan ijin dan ISBN.</p>
+   ``` 
+   
+   <p align="justify">Contoh lainnya, figure ini dapat kita gunakan untuk markup sebuah konten puisi.</p>
+   
+   ```plantuml
+   <figure>
+   <pre>
+           SAJAK PUTIH
+ 
+       Bersandar pada tari warna pelangi
+       Kau depanku bertudung sutra senja
+       Di hitam matamu kembang mawar dan melati
+       Harum rambutmu mengalun bergelut senda
+ 
+       Sepi menyanyi, malam dalam mendoa tiba
+       Meriak muka air kolam jiwa
+       Dan dalam dadaku memerdu lagu
+       Menarik menari seluruh aku
+ 
+       Hidup dari hidupku, pintu terbuka
+       Selama matamu bagiku menengadah
+       Selama kau darah mengalir dari luka
+       Antara kita Mati datang tidak membelah...
+   </pre>
+   <figcaption>Sajak Putih oleh Charil Anwar</figcaption>
+</figure>
+   ``` 
+   
+   <table><tr><td><figure>
+   <pre>
+           SAJAK PUTIH
+ 
+       Bersandar pada tari warna pelangi
+       Kau depanku bertudung sutra senja
+       Di hitam matamu kembang mawar dan melati
+       Harum rambutmu mengalun bergelut senda
+ 
+       Sepi menyanyi, malam dalam mendoa tiba
+       Meriak muka air kolam jiwa
+       Dan dalam dadaku memerdu lagu
+       Menarik menari seluruh aku
+ 
+       Hidup dari hidupku, pintu terbuka
+       Selama matamu bagiku menengadah
+       Selama kau darah mengalir dari luka
+       Antara kita Mati datang tidak membelah...
+   </pre>
+   <figcaption>Sajak Putih oleh Charil Anwar</figcaption>
+</figure></td></tr></table>
