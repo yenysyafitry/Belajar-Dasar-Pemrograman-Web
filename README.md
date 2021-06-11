@@ -639,7 +639,7 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 ```
 
 <p align="justify">Selain atribut href, terdapat beberapa atribut khusus yang dapat digunakan pada elemen ini, antara lain:</p>
-<table><tr><th width="100px">Atribut</th><th width="300px">Nilai</th><th width="300px">Deskripsi</th></tr>
+<table><tr><th width="100px">Atribut</th><th width="300px">Nilai</th><th width="500px">Deskripsi</th></tr>
 <tr><td>download</td><td>filename</td><td>Menginstruksikan browser untuk mengunduh pada URL yang ditetapkan daripada mengarahkannya. </td></tr> 
 <tr><td>href</td><td>URL</td><td>Menetapkan target yang akan diarahkan/unduh ketika pengguna menekan hyperlink.</td></tr>
 <tr><td>hreflang</td><td>language_code</td><td>Menetapkan bahasa dari dokumen target.</td></tr>
@@ -648,3 +648,16 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 <tr><td>rel</td><td>alternate,author,bookmark, external, help, license, next, nofollow, noreferrer, noopener, prev, search, tag</td><td>Menetapkan hubungan antara halaman yang ditampilkan dengan target.</td></tr>
 <tr><td>target</td><td>_blank,_parent,_self,_top</td><td>Menetapkan lokasi ketika membuka target contohnya pada sebuah tab, window atau pada tab itu sendiri.</td></tr>
 <tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr><table>
+
+<p align="justify"><b>Emphasized text</b></br>
+Gunakan elemen <em> untuk menunjukan bagian kata yang perlu kita tekankan. Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus. Berikut contoh penggunaannya.</p>
+
+```plantuml
+<p><em>Oding</em> adalah seorang pelajar</p>
+<p>Dia adalah seorang <em>pelajar</em></p>
+```
+
+<p align="justify">Pada kalimat pertama, penekanan terdapat pada “siapa” seorang pelajar. Sedangkan pada kalimat kedua, penekanan terdapat pada “apa” yang sedang ditekuni oleh Oding. Standarnya pada browser sebuah kata yang ditekankan akan ditampilkan dalam gaya miring pada teks nya.</p>
+
+<table><tr><td><p><em>Oding</em> adalah seorang pelajar</p>
+ <p>Dia adalah seorang <em>pelajar</em></p></td></tr></table>
