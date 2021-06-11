@@ -650,14 +650,38 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 <tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr><table>
 
 <p align="justify"><b>Emphasized text</b></br>
-Gunakan elemen <em> untuk menunjukan bagian kata yang perlu kita tekankan. Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus. Berikut contoh penggunaannya.</p>
+Gunakan elemen < em > untuk menunjukan bagian kata yang perlu kita tekankan. Elemen ini menunjukan stress emphasis atau konten/kata yang perlu mendapatkan penekanan atau perhatian khusus. Berikut contoh penggunaannya.</p>
 
 ```plantuml
 <p><em>Oding</em> adalah seorang pelajar</p>
 <p>Dia adalah seorang <em>pelajar</em></p>
 ```
 
-<p align="justify">Pada kalimat pertama, penekanan terdapat pada “siapa” seorang pelajar. Sedangkan pada kalimat kedua, penekanan terdapat pada “apa” yang sedang ditekuni oleh Oding. Standarnya pada browser sebuah kata yang ditekankan akan ditampilkan dalam gaya miring pada teks nya.</p>
+<p align="justify">Pada kalimat pertama, penekanan terdapat pada "siapa" seorang pelajar. Sedangkan pada kalimat kedua, penekanan terdapat pada "apa" yang sedang ditekuni oleh Oding. Standarnya pada browser sebuah kata yang ditekankan akan ditampilkan dalam gaya miring pada teks nya.</p>
 
 <table><tr><td><p><em>Oding</em> adalah seorang pelajar</p>
  <p>Dia adalah seorang <em>pelajar</em></p></td></tr></table>
+
+<p align="justify"><b>Important text</b>
+Gunakan elemen <strong> untuk menunjukan sebuah teks yang begitu penting (strong importance), serius, ataupun mendesak. Dalam arti teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.</p>
+ 
+ ```plantuml
+ <p>Kesehatan merupakan hal yang penting, jaga pola makan yang teratur dan <strong>jangan sampai makan tengah
+   malam!</strong></p>
+  ```
+  
+ <p align="justify"> Standarnya pada browser sebuah teks yang diberi markup < strong > akan ditampilkan secara tebal. Dan ketika pengguna menggunakan pembaca layar (screen reader), suara yang terdengar akan berbeda. Ini mengartikan bahwa teks tersebut penting tidak hanya sekedar tebal.</p>
+ 
+ <table><p>Kesehatan merupakan hal yang penting, jaga pola makan yang teratur dan <strong>jangan sampai makan tengah
+   malam!</strong></p></table>
+   
+<p align="justify"><b>Short quotations</b></br>
+Gunakan elemen <q> untuk menandai sebuah kutipan dalam sebuah teks. Elemen short quations berbeda dengan <blockquote>. Elemen ini digunakan untuk kutipan pendek yang terletak di dalam baris (inline).</p>
+
+```plantuml
+<p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p>
+```
+
+<p align="justify">Standarnya pada browser sebuah teks yang diberi markup <q> akan ditampilkan di dalam tanda kutip (Quotation marks).</p>
+ 
+ <table><p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p></table>
