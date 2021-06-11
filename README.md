@@ -647,4 +647,4 @@ Apa itu anchor? Anchor (jangkar) merupakan elemen yang digunakan untuk membuat s
 <tr><td>referrerpolicy</td><td>no-referrer, no-referrer-when-downgrade,origin,origin-when-cross-origin, unsafe-url</td><td>Menetapkan referensi untuk dikirim pada target.</td></tr>
 <tr><td>rel</td><td>alternate,author,bookmark,external,help,license,next,nofollow,noreferrer,noopener,prev,search,tag</td><td>Menetapkan hubungan antara halaman yang ditampilkan dengan target.</td></tr>
 <tr><td>target</td><td>_blank,_parent,_self,_top</td><td>Menetapkan lokasi ketika membuka target contohnya pada sebuah tab, window atau pada tab itu sendiri.</td></tr>
-<tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr>
+<tr><td>media</td><td>media_type</td><td>Menetapkan tipe media yang digunakan pada target.</td></tr><table>
