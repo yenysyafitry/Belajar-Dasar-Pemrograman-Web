@@ -663,7 +663,7 @@ Gunakan elemen < em > untuk menunjukan bagian kata yang perlu kita tekankan. Ele
  <p>Dia adalah seorang <em>pelajar</em></p></td></tr></table>
 
 <p align="justify"><b>Important text</b>
-Gunakan elemen <strong> untuk menunjukan sebuah teks yang begitu penting (strong importance), serius, ataupun mendesak. Dalam arti teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.</p>
+Gunakan elemen < strong > untuk menunjukan sebuah teks yang begitu penting (strong importance), serius, ataupun mendesak. Dalam arti teks tersebut harus dapat perhatian lebih dari teks biasa lainnya.</p>
  
  ```plantuml
  <p>Kesehatan merupakan hal yang penting, jaga pola makan yang teratur dan <strong>jangan sampai makan tengah
@@ -676,7 +676,7 @@ Gunakan elemen <strong> untuk menunjukan sebuah teks yang begitu penting (strong
    malam!</strong></p></table>
    
 <p align="justify"><b>Short quotations</b></br>
-Gunakan elemen <q> untuk menandai sebuah kutipan dalam sebuah teks. Elemen short quations berbeda dengan <blockquote>. Elemen ini digunakan untuk kutipan pendek yang terletak di dalam baris (inline).</p>
+Gunakan elemen <q> untuk menandai sebuah kutipan dalam sebuah teks. Elemen short quations berbeda dengan <blockquote>. Elemen ini digunakan untuk kutipan pendek yang terletak di dalam baris ( inline ).</p>
 
 ```plantuml
 <p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p>
@@ -684,4 +684,4 @@ Gunakan elemen <q> untuk menandai sebuah kutipan dalam sebuah teks. Elemen short
 
 <p align="justify">Standarnya pada browser sebuah teks yang diberi markup <q> akan ditampilkan di dalam tanda kutip (Quotation marks).</p>
  
- <table><p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p></table>
+ <table><tr><td><p>Sebelum pulang kerja, ia berkata kepadaku: <q>Maaf saya tidak bisa hadir dalam pertemuan nanti</q></p></td></tr></table>
